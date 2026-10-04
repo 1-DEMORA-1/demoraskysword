@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "demoraskysword",
+  "version": "${version}",
+  "name": "Demora Sky Sword",
+  "description": "Меч Небес",
+  "authors": ["__DEMORA__"],
+  "license": "Apache-2.0",
+  "icon": "assets/demoraskysword/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.demora.DemoraSkySword"],
+    "client": ["dev.demora.client.DemoraSkySwordClient"]
+  },
+  "mixins": ["demoraskysword.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

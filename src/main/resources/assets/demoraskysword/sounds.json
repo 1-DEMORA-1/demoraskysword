@@ -1,0 +1,34 @@
+{
+  "judgement_charge": {
+    "sounds": [
+      {
+        "name": "demoraskysword:judgement_charge",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "judgement_descend": {
+    "sounds": [
+      {
+        "name": "demoraskysword:judgement_descend",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "judgement_impact": {
+    "sounds": [
+      {
+        "name": "demoraskysword:judgement_impact",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "slash": {
+    "sounds": [
+      {
+        "name": "demoraskysword:slash",
+        "attenuation_distance": 24
+      }
+    ]
+  }
+}
